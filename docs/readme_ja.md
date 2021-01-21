@@ -155,11 +155,12 @@ bg_color オプションで複数のカンマ区切りの値を指定してグ�
 - `hide` - 特定の統計情報を隠す _(カンマ区切りで指定)_
 - `hide_title` - _(boolean)_
 - `hide_rank` - _(boolean)_
-- `hide_border` - _(boolean)_
 - `show_icons` - _(boolean)_
 - `include_all_commits` - 今年度のコミット数だけでなく、コミット数の総数をカウントする _(boolean)_
 - `count_private` - プライベートリポジトリへのコミットをカウントする _(boolean)_
 - `line_height` - テキストの行の高さ _(number)_
+- `custom_title` - タイトル文字列を変更する
+- `disable_animations` - カードのアニメーションを無効にする _(boolean)_
 
 #### Repo Card だけに存在するオプション
 
@@ -169,11 +170,13 @@ bg_color オプションで複数のカンマ区切りの値を指定してグ�
 
 - `hide` - 特定の言語を隠す _(カンマ区切りで指定)_
 - `hide_title` - _(boolean)_
-- `hide_border` - _(boolean)_
 - `layout` - `default` か `compact` のいずれかのレイアウトに切り替える
 - `card_width` - カードの横幅 _(number)_
+- `langs_count` - 表示される言語の数　_(1 ~ 10, 初期値 5)_
+- `exclude_repo` - 指定されたリポジトリを除外する _(カンマ区切りで指定)_
+- `custom_title` - タイトル文字列を変更する
 
-> :warning: **重要:**  
+> :warning: **重要:**
 > [Percent Encoding](https://en.wikipedia.org/wiki/Percent-encoding) で指定されているように、プログラミング言語の名前は URL エンコードされている必要があります。
 > (例: `c++` は `c%2B%2B`, `jupyter notebook` は `jupyter%20notebook`, など)
 
@@ -314,16 +317,16 @@ NOTE: [#58](https://github.com/anuraghazra/github-readme-stats/pull/58) 以降�
  <summary>Vercelの設定ガイド</summary>
 
 1. [vercel.com](https://vercel.com/)に行きます。
-1. `Log in`をクリックします。  
+1. `Log in`をクリックします。
    ![](https://files.catbox.moe/tct1wg.png)
-1. `Continue with GitHub` を押して GitHub にサインインします。  
+1. `Continue with GitHub` を押して GitHub にサインインします。
    ![](https://files.catbox.moe/btd78j.jpeg)
 1. GitHub にサインインし、すべてのリポジトリへのアクセスを許可します。
 1. このリポジトリをフォークします。
 1. [Vercel dashboard](https://vercel.com/dashboard)に戻ります。
-1. `Import Project` を選択します。  
+1. `Import Project` を選択します。
    ![](https://files.catbox.moe/qckos0.png)
-1. `Import Git Repository` を選択します。  
+1. `Import Git Repository` を選択します。
    ![](https://files.catbox.moe/pqub9q.png)
 1. root を選択して、すべてをそのままにしておき、PAT_1 という名前の環境変数を（下図のように）追加します。これには個人アクセストークン (PAT) が含まれており、[ここ](https://github.com/settings/tokens/new)で簡単に作成することができます (すべてをそのままにしておいて、何かに名前を付けてください。)
    ![](https://files.catbox.moe/0ez4g7.png)
@@ -333,7 +336,7 @@ NOTE: [#58](https://github.com/anuraghazra/github-readme-stats/pull/58) 以降�
 
 ## :sparkling_heart: このプロジェクトを支援する
 
-私はできる限りのことをオープンソースで行い、また、このプロジェクトを利用する上で困っている皆さん全員に返信するようにしています。もちろん返信には時間が掛かる場合がありますが。  
+私はできる限りのことをオープンソースで行い、また、このプロジェクトを利用する上で困っている皆さん全員に返信するようにしています。もちろん返信には時間が掛かる場合がありますが。
 このプロジェクトは無料でご利用いただけます。
 
 しかしながら、もしあなたがこのプロジェクトに満足しているのであれば、あるいはただ、私がソフトウェアを作り続けるよう励ましたいのであれば、いくつかの方法があります。
@@ -346,7 +349,7 @@ Thanks! :heart:
 
 ---
 
-![https://vercel.com](https://res.cloudinary.com/anuraghazra/image/upload/v1597827714/powered-by-vercel_1_ug4uro.svg)
+[![https://vercel.com?utm_source=github_readme_stats_team&utm_campaign=oss](../powered-by-vercel.svg)](https://vercel.com?utm_source=github_readme_stats_team&utm_campaign=oss)
 
 コントリビュートは大歓迎です！ :heart_eyes:
 
