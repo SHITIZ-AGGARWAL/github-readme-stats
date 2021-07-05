@@ -51,6 +51,8 @@
     <a href="/docs/readme_kr.md">한국어</a>
     .
     <a href="/docs/readme_nl.md">Nederlands</a>
+    .
+    <a href="/docs/readme_np.md">नेपाली</a>
   </p>
 </p>
 <p align="center">기능들이 마음에 드시나요? 괜찮으시다면, 서비스 개선을 위해 <a href="https://www.paypal.me/anuraghazra">기부</a>를 고려해주세요!
@@ -73,7 +75,7 @@
 `?username=` 속성의 값을 Github 계정의 사용자 명(닉네임)으로 바꿔주세요.
 
 ```md
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 ```
 
 _참고:_
@@ -92,7 +94,7 @@ _[src/calculateRank.js](../src/calculateRank.js) 에서 수행되는 계산 작�
 > 사용 가능한 항목들: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=contribs,prs)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=contribs,prs)
 ```
 
 ### 총 커밋 수에 비공개 기여도 (private contribs) 수 추가하기
@@ -104,7 +106,7 @@ _참고: 프로젝트를 직접 배포하신 경우, 비공개 기여도는 기�
 > 예시: `&count_private=true`
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&count_private=true)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&count_private=true)
 ```
 
 ### 아이콘 표시하기
@@ -112,7 +114,7 @@ _참고: 프로젝트를 직접 배포하신 경우, 비공개 기여도는 기�
 아이콘 항목을 활성화 하기 위해선, 다음과 같이 `show_icons=true` 속성을 추가해주세요.
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true)
 ```
 
 ### 테마 설정하기
@@ -122,7 +124,7 @@ _참고: 프로젝트를 직접 배포하신 경우, 비공개 기여도는 기�
 다음과 같이 `?theme=THEME_NAME` 속성을 이용해주세요.
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
 ```
 
 #### 지원하는 내장 테마 목록
@@ -220,7 +222,7 @@ GitHub 저장소 여분 핀을 이용하면, 6개 이상의 저장소 핀을 여
 엔드 포인트: `api/pin?username=anuraghazra&repo=github-readme-stats`
 
 ```md
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
 ```
 
 ### 미리보기
@@ -422,7 +424,7 @@ GitHub API 가 시간 당 요청 개수를 5,000회로 제한한 뒤로,
 만족하시거나, 제가 이런 요소들을 만드는 데에 도움을 주고 싶으시다면,
 여러분께서 도와주실 수 있는 것들이 있어요!
 
-- github-readme-stats 를 README 에 표시하실 때 확실한 도움을 주세요! 이 저장소로 링크를 걸어주시면 되요! :D
+- github-readme-stats 를 README 에 표시하실 때 확실한 도움을 주세요! 이 저장소로 링크를 걸어주시면 돼요! :D
 - 이 프로젝트를 많이 공유해주시고, 즐겨찾기 해주세요! :rocket:
 - [![paypal.me/anuraghazra](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/anuraghazra) - PayPal 을 이용해 1회성 도네이션을 해주실 수 있어요. 아마도 전 ~~커피, 아... 아니~~ 차를 사서 마시겠죠? ㅎ; :tea:
 
